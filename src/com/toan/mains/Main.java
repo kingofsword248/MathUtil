@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.hautt.mains;
+package com.toan.mains;
 
-import static com.hautt.utils.MathUtil.computeFactorial;
+import static com.toan.utils.MathUtil.computeFactorial;
 
 /**
  *
