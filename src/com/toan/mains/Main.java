@@ -19,6 +19,10 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
         System.out.println("5! = " + computeFactorial(5));
+        //đoạn code trên chính là test hàm bằng tay, manual test
+        //tức là :
+        System.out.println("6! = " + computeFactorial(6));
+        System.out.println("0! = " + computeFactorial(0));
     }
 
 }
