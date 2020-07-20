@@ -37,10 +37,10 @@ public class MathUtilTest {
     //Exception ko phải là 1 con số , chuỗi để so sánh
     //hàm assertEquals() chỉ dùng để so sánh các giá trị
     //có cách chơi với Exception
-//    @Test(expected = IllegalArgumentException.class)
-//    public void testFailedCases(){
-//        computeFactorial(-5);
-//    }
+    @Test(expected = IllegalArgumentException.class)
+    public void testFailedCases(){
+        computeFactorial(-5);
+    }
     // nhớ  2 con số đặc biệt 
     //netbean 8, 1005
     //netbean 10 trở lên, 1204
